@@ -5,3 +5,4 @@ include_once FUNCTIONS_DIR . 'controllers.php';
 include_once FUNCTIONS_DIR . 'storages.php';
 include_once FUNCTIONS_DIR . 'responses.php';
 include_once FUNCTIONS_DIR . 'validators.php';
+include_once FUNCTIONS_DIR . 'helpers.php';

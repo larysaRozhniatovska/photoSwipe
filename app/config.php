@@ -3,7 +3,7 @@ const TEXT_SITE_NAME = 'PhotoSwipe';
 
 //VIEWS all parameters of views===========================================================
 const VIEWS_TEMPLATE_MAIN = 'template_main';
-const VIEWS_DIR = 'app' . DIRECTORY_SEPARATOR . 'views' . DIRECTORY_SEPARATOR;
+const VIEWS_DIR = APP_DIR . 'views' . DIRECTORY_SEPARATOR;
 const VIEWS_TEMPLATES_DIR = VIEWS_DIR . 'templates' . DIRECTORY_SEPARATOR;
 const VIEWS_COMMON_DIR = VIEWS_DIR . 'common' . DIRECTORY_SEPARATOR;
 const VIEWS_PAGES_DIR = VIEWS_DIR . 'pages' . DIRECTORY_SEPARATOR;
@@ -14,8 +14,12 @@ const CSS_DIR = 'css' . DIRECTORY_SEPARATOR;
 const JS_DIR = 'js' . DIRECTORY_SEPARATOR;
 
 //FUNCTIONS all parameters================================================================
-const FUNCTIONS_DIR = APP_DIR . DIRECTORY_SEPARATOR . 'functions' . DIRECTORY_SEPARATOR;
+const FUNCTIONS_DIR = APP_DIR . 'functions' . DIRECTORY_SEPARATOR;
 const STORAGE_NAMES_FILE = APP_DIR . 'storage' . DIRECTORY_SEPARATOR . 'names.json';
+
+//STORAGES all parameters================================================================
+const STORAGE_DIR = APP_DIR . 'storage' . DIRECTORY_SEPARATOR;
+const IMAGES_DIR = STORAGE_DIR . 'images'. DIRECTORY_SEPARATOR;
 
 const MAX_FILES = 5;
 const PHOTO_MAX_SIZE = 2 * 1024 * 1024; //2Mb
@@ -24,7 +28,6 @@ const PHOTO_AVAILABLE_TYPES = [
     'image/png',
     'image/bmp',
 ];
-const PHOTO_DIR = 'images';
 
 const UPLOAD_ERROR_MESSAGES = [
     0 => 'There is no error, the file uploaded with success',
